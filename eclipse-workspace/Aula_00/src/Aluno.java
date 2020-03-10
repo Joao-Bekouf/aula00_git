@@ -23,4 +23,8 @@ public class Aluno {
 	public void setId(int id){
 		this.id = id;
 	}
+	
+	public String toString() {
+		return "Nome: " + getNome() + " Id: " + getId();
+	}
 }
